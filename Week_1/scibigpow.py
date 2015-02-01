@@ -12,9 +12,6 @@ Note: (1^n = 1 and therefore we don't include 1 in the range
 of numbers)
 [source: Sci CodeJam team]
 """
-
-#scibigpow of all numbers below num
-
 import math
 
 def is_prime(num):
@@ -37,6 +34,7 @@ def largest_prime(num):
 		num -= 1
 	return num
 
+#scibigpow of all numbers below rangenum
 def scibigpow(resultnum, rangenum = False):
 	x = 2 #excluding 1
 	power = 2 #no point starting at power of 1
