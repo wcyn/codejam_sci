@@ -11,9 +11,7 @@ is 12. Find the sum of all the multiples of
 def div_sum(num):
 	sum1 = 0
 	while num > 0:
-		if num % 7 == 0:
-			sum1 += num
-		if num % 11 == 0:
+		if num % 7 == 0 and num % 11 == 0:
 			sum1 += num
 		num -= 1				
 	print sum1 
