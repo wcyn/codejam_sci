@@ -1,2 +1,2 @@
 # codejam_sci
-codejam.sci.website
+[codejam.sci.website](https://codejam.sci.website)
